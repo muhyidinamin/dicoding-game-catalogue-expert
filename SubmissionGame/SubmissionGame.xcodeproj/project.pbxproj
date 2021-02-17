@@ -46,6 +46,7 @@
 		7255AFB025DC8AF70034B8AF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7255AFAF25DC8AF70034B8AF /* Localizable.strings */; };
 		7255AFB725DC8D570034B8AF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7255AFB625DC8D570034B8AF /* .gitignore */; };
 		7255AFBD25DCAA430034B8AF /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 7255AFBC25DCAA430034B8AF /* Core */; };
+		7255AFC125DCBB430034B8AF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7255AFC025DCBB430034B8AF /* README.md */; };
 		725888A725CF65950097C0F2 /* SubmissionGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725888A625CF65950097C0F2 /* SubmissionGameTests.swift */; };
 		725888B525CF67020097C0F2 /* SubmissionGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725888B425CF67020097C0F2 /* SubmissionGameUITests.swift */; };
 		7266873C25DB42A9005D4B22 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 7266873B25DB42A9005D4B22 /* .swiftlint.yml */; };
@@ -109,6 +110,7 @@
 		7255AFAC25DC89AE0034B8AF /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		7255AFAF25DC8AF70034B8AF /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ../../Localizable.strings; sourceTree = "<group>"; };
 		7255AFB625DC8D570034B8AF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		7255AFC025DCBB430034B8AF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		725888A425CF65930097C0F2 /* SubmissionGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubmissionGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		725888A625CF65950097C0F2 /* SubmissionGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmissionGameTests.swift; sourceTree = "<group>"; };
 		725888A825CF65950097C0F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 		7254D50025BC86BE00BDB908 = {
 			isa = PBXGroup;
 			children = (
+				7255AFC025DCBB430034B8AF /* README.md */,
 				7255AFB625DC8D570034B8AF /* .gitignore */,
 				7266873B25DB42A9005D4B22 /* .swiftlint.yml */,
 				7252C3D625CFDACA00F4284D /* Game */,
@@ -591,6 +594,7 @@
 				7255AFB025DC8AF70034B8AF /* Localizable.strings in Resources */,
 				7266873C25DB42A9005D4B22 /* .swiftlint.yml in Resources */,
 				7254D51925BC86C900BDB908 /* LaunchScreen.storyboard in Resources */,
+				7255AFC125DCBB430034B8AF /* README.md in Resources */,
 				7254D51625BC86C900BDB908 /* Preview Assets.xcassets in Resources */,
 				7255AFB725DC8D570034B8AF /* .gitignore in Resources */,
 				7254D51325BC86C900BDB908 /* Assets.xcassets in Resources */,
