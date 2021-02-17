@@ -33,7 +33,7 @@ struct FavoriteView: View {
     }.onAppear {
       self.presenter.getList(request: nil)
     }.navigationBarTitle(
-      Text("Favorite Games"),
+      Text(LocalizedStringKey("favorite_game")),
       displayMode: .automatic
     )
     .navigationBarItems(trailing:
@@ -48,7 +48,7 @@ struct FavoriteView: View {
 extension FavoriteView {
   var loadingIndicator: some View {
     VStack {
-      Text("Loading...")
+      Text(LocalizedStringKey("loading"))
       ActivityIndicator()
     }
   }

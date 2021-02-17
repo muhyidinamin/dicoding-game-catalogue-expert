@@ -1,8 +1,37 @@
-/* 
+/*
   Localizable.strings
   SubmissionGame
 
   Created by Muhamad Muhyidin Amin on 17/02/21.
   Copyright © 2021 Amint Dev Labs. All rights reserved.
 */
-"po"
+"product_title" = "Game Catalogue";
+"loading" = "Loading...";
+"game_count" = "Game Count";
+"description" = "Description";
+"release" = "Release";
+"search_game" = "Search Games";
+"rating" = "Rating";
+"genre" = "Genre";
+"favorite_game" = "Favorite Games";
+"link_alert" = "Oops!";
+"link_message" = "Something wrong!";
+"alternative_name" = "Alternative Name";
+"platform" = "Platforms";
+"developer" = "Developers";
+"website" = "Website";
+"metascore" = "Metascore";
+"release_date" = "Release Date";
+"publisher" = "Publishers";
+"profile" = "Profile";
+"edit" = "Edit";
+
+"name" = "Name";
+"enter_name" = "Enter Name";
+"job_position" = "Job Position";
+"enter_job" = "Enter Job Position";
+"email" = "Email";
+"enter_email" = "Enter Email";
+"edit_profile" = "Edit Profile";
+"data_updated" = "Data updated";
+"updated_message" = "Profile is successful to update.";

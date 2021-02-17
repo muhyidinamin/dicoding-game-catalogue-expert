@@ -49,7 +49,7 @@ struct SearchView: View {
       }
       Spacer()
     }.navigationBarTitle(
-      Text("Search Games"),
+      Text(LocalizedStringKey("search_game")),
       displayMode: .automatic
     )
     .navigationBarItems(trailing:
@@ -64,7 +64,7 @@ extension SearchView {
   
   var loadingIndicator: some View {
     VStack {
-      Text("Loading...")
+      Text(LocalizedStringKey("loading"))
       ActivityIndicator()
     }
   }

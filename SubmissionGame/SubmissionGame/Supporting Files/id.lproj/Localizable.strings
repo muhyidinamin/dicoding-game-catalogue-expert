@@ -1,7 +1,37 @@
-/* 
+/*
   Localizable.strings
   SubmissionGame
 
   Created by Muhamad Muhyidin Amin on 17/02/21.
   Copyright © 2021 Amint Dev Labs. All rights reserved.
 */
+"product_title" = "Katalog Permainan";
+"loading" = "Memuat...";
+"game_count" = "Jumlah Permainan";
+"description" = "Deskripsi";
+"release" = "Rilis";
+"search_game" = "Cari Permainan";
+"rating" = "Penilaian";
+"genre" = "Genre";
+"favorite_game" = "Permainan Favorit";
+"link_alert" = "Oops!";
+"link_message" = "Terjadi kesalahan!";
+"alternative_name" = "Nama Lain";
+"platform" = "Platform";
+"developer" = "Pengembang";
+"website" = "Situs";
+"metascore" = "Peringkat";
+"release_date" = "Tanggal Rilis";
+"publisher" = "Penerbit";
+"profile" = "Profil";
+"edit" = "Ubah";
+
+"name" = "Nama";
+"enter_name" = "Masukkan Nama";
+"job_position" = "Pekerjaan";
+"enter_job" = "Masukkan Pekerjaan";
+"email" = "Alamat Email";
+"enter_email" = "Masukkan Alamat Email";
+"edit_profile" = "Sunting Profil";
+"data_updated" = "Data diperbaharui";
+"updated_message" = "Profil berhasil di ubah.";

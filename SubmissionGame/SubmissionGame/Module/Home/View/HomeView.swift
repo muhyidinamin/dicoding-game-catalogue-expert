@@ -32,7 +32,7 @@ struct HomeView: View {
         self.presenter.getList(request: nil)
       }
     }.navigationBarTitle(
-      Text("Games Apps"),
+      Text(LocalizedStringKey("product_title")),
       displayMode: .automatic
     ).navigationBarItems(trailing:
         NavigationLink(destination: ProfileView()) {
@@ -47,7 +47,7 @@ extension HomeView {
 
   var loadingIndicator: some View {
     VStack {
-      Text("Loading...")
+      Text(LocalizedStringKey("loading"))
       ActivityIndicator()
     }
   }

@@ -38,12 +38,12 @@ struct ProfileView: View {
                   .foregroundColor(.gray)
           }.padding()
           NavigationLink(destination: EditProfileView()) {
-              Text("Edit").padding(12)
+              Text(LocalizedStringKey("edit")).padding(12)
           }
           .background(Color.pink)
           .foregroundColor(.white)
           .cornerRadius(9)
-          .navigationBarTitle(Text("Profile"))
+          .navigationBarTitle(Text(LocalizedStringKey("profile")))
     }.onAppear {
         guard let getName = UserDefaults.standard.value(forKey: "name") else { return }
         guard let getJob = UserDefaults.standard.value(forKey: "job") else { return }

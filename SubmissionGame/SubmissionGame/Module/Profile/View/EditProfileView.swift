@@ -17,14 +17,14 @@ struct EditProfileView: View {
   
   var body: some View {
     VStack {
-      Text("Name").font(.headline)
-      TextField("Enter Name", text: $name)
+      Text(LocalizedStringKey("name")).font(.headline)
+      TextField(LocalizedStringKey("enter_name"), text: $name)
         .textFieldStyle(RoundedBorderTextFieldStyle()).padding()
-      Text("Job Position").font(.headline)
-      TextField("Enter Job Position", text: $job)
+      Text(LocalizedStringKey("job_position")).font(.headline)
+      TextField(LocalizedStringKey("enter_job"), text: $job)
         .textFieldStyle(RoundedBorderTextFieldStyle()).padding()
-      Text("Email").font(.headline)
-      TextField("Enter Email", text: $email)
+      Text(LocalizedStringKey("email")).font(.headline)
+      TextField(LocalizedStringKey("enter_email"), text: $email)
         .textFieldStyle(RoundedBorderTextFieldStyle()).padding()
         Button(action: {
           UserDefaults.standard.set(self.name, forKey: "name")
@@ -37,10 +37,10 @@ struct EditProfileView: View {
         }.background(Color.pink)
         .foregroundColor(.white)
         .cornerRadius(9)
-      }.navigationBarTitle(Text("Edit Profile"))
+      }.navigationBarTitle(Text(LocalizedStringKey("edit_profile")))
       .alert(isPresented: $showingUpdatedAlert) {
-        Alert(title: Text("Data Updated"),
-          message: Text("profile is successful to update."),
+        Alert(title: Text(LocalizedStringKey("data_updated")),
+          message: Text(LocalizedStringKey("updated_message")),
           dismissButton: .default(Text("OK")))
       }
   .onAppear {

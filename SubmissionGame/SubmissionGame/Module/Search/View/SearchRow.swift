@@ -53,18 +53,18 @@ extension SearchRow {
               .font(.title)
               .fontWeight(.black)
           HStack {
-              Text("Release")
+              Text(LocalizedStringKey("release"))
                   .font(.headline)
               Text(getReleaseDate(released: game.released))
                   .font(.subheadline)
                   .padding(.trailing)
-              Text("Rating")
+              Text(LocalizedStringKey("rating"))
                   .font(.headline)
               Text("\(game.rating, specifier: "%.2f")")
                   .font(.subheadline)
           }
           HStack {
-            Text("Genres")
+            Text(LocalizedStringKey("genre"))
                 .font(.headline)
             HStack {
               Text(genreText(genres: game.genres))

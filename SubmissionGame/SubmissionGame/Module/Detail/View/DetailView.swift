@@ -52,7 +52,7 @@ extension DetailView {
 
   var loadingIndicator: some View {
     VStack {
-      Text("Loading...")
+      Text(LocalizedStringKey("loading"))
       ActivityIndicator()
     }
   }

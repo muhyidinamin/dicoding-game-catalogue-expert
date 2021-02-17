@@ -43,8 +43,8 @@ struct GameView: View {
       self.presenter.getGame(request: String(self.game.id))
     }.alert(isPresented: $showingAlert) {
       Alert(
-        title: Text("Oops!"),
-        message: Text("Something wrong!"),
+        title: Text(LocalizedStringKey("link_alert")),
+        message: Text(LocalizedStringKey("link_message")),
         dismissButton: .default(Text("OK"))
       )
     }.navigationBarTitle(
@@ -59,7 +59,7 @@ extension GameView {
 
   var loadingIndicator: some View {
     VStack {
-      Text("Loading...")
+      Text(LocalizedStringKey("loading"))
       ActivityIndicator()
     }
   }
@@ -113,7 +113,7 @@ extension GameView {
       Group {
         table
         VStack(alignment: .leading) {
-          Text("Description")
+          Text(LocalizedStringKey("description"))
               .font(.headline)
           Text(game.desc)
               .font(.subheadline)
@@ -128,7 +128,7 @@ extension GameView {
     HStack(alignment: .top, spacing: 20) {
         VStack(alignment: .leading) {
           VStack(alignment: .leading) {
-            Text("Alternative Name")
+            Text(LocalizedStringKey("alternative_name"))
               .font(.headline)
             ForEach(game.alternativeNames, id: \.self) { name in
                 ZStack {
@@ -138,7 +138,7 @@ extension GameView {
             }
           }.padding(.bottom)
           VStack(alignment: .leading) {
-            Text("Platforms")
+            Text(LocalizedStringKey("platform"))
               .font(.headline)
             ForEach(game.platforms, id: \.self) { platform in
                 ZStack {
@@ -148,7 +148,7 @@ extension GameView {
             }
           }.padding(.bottom)
           VStack(alignment: .leading) {
-            Text("Genres")
+            Text(LocalizedStringKey("genre"))
               .font(.headline)
             ForEach(game.genres, id: \.id) { genre in
                 ZStack {
@@ -158,7 +158,7 @@ extension GameView {
             }
           }.padding(.bottom)
           VStack(alignment: .leading) {
-            Text("Developers")
+            Text(LocalizedStringKey("developer"))
               .font(.headline)
             ForEach(game.developers, id: \.self) { developer in
                 ZStack {
@@ -168,7 +168,7 @@ extension GameView {
             }
           }.padding(.bottom)
           VStack(alignment: .leading) {
-            Text("Website")
+            Text(LocalizedStringKey("website"))
               .font(.headline)
             Text(game.website)
               .font(.subheadline)
@@ -176,25 +176,25 @@ extension GameView {
         }
         VStack(alignment: .leading) {
           VStack(alignment: .leading) {
-            Text("Rating")
+            Text(LocalizedStringKey("rating"))
               .font(.headline)
             Text("\(game.rating, specifier: "%.2f")")
               .font(.subheadline)
           }.padding(.bottom)
           VStack(alignment: .leading) {
-              Text("Metascore")
+              Text(LocalizedStringKey("metascore"))
                 .font(.headline)
               Text("\(game.metacritic)")
                 .font(.subheadline)
           }.padding(.bottom)
           VStack(alignment: .leading) {
-              Text("Release Date")
+              Text(LocalizedStringKey("release_date"))
                 .font(.headline)
               Text(game.released)
                 .font(.subheadline)
           }.padding(.bottom)
           VStack(alignment: .leading) {
-              Text("Publishers")
+              Text(LocalizedStringKey("publisher"))
                 .font(.headline)
               ForEach(game.publishers, id: \.self) { publisher in
                 ZStack {
