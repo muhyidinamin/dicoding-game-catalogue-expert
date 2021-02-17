@@ -43,7 +43,6 @@
 		7254D51325BC86C900BDB908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7254D51225BC86C900BDB908 /* Assets.xcassets */; };
 		7254D51625BC86C900BDB908 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7254D51525BC86C900BDB908 /* Preview Assets.xcassets */; };
 		7254D51925BC86C900BDB908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7254D51725BC86C900BDB908 /* LaunchScreen.storyboard */; };
-		7255AFB025DC8AF70034B8AF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7255AFAF25DC8AF70034B8AF /* Localizable.strings */; };
 		7255AFB725DC8D570034B8AF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7255AFB625DC8D570034B8AF /* .gitignore */; };
 		7255AFBD25DCAA430034B8AF /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 7255AFBC25DCAA430034B8AF /* Core */; };
 		7255AFC125DCBB430034B8AF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7255AFC025DCBB430034B8AF /* README.md */; };
@@ -52,8 +51,9 @@
 		7266873C25DB42A9005D4B22 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 7266873B25DB42A9005D4B22 /* .swiftlint.yml */; };
 		72C6A00425D9206400076171 /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = 72C6A00325D9206400076171 /* Game */; };
 		72C8E24B25DD613600CB0D30 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 72C8E24A25DD613600CB0D30 /* .travis.yml */; };
-		72C8E24E25DD775300CB0D30 /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = 72C8E24D25DD775300CB0D30 /* Game */; };
 		72C8E25125DD778B00CB0D30 /* Genre in Frameworks */ = {isa = PBXBuildFile; productRef = 72C8E25025DD778B00CB0D30 /* Genre */; };
+		72C8E25925DD7AD500CB0D30 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72C8E25B25DD7AD500CB0D30 /* Localizable.strings */; };
+		72C8E26025DD7D1900CB0D30 /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = 72C8E25F25DD7D1900CB0D30 /* Game */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,7 +111,6 @@
 		7254D51A25BC86C900BDB908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7255AFAB25DC899F0034B8AF /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		7255AFAC25DC89AE0034B8AF /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		7255AFAF25DC8AF70034B8AF /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ../../Localizable.strings; sourceTree = "<group>"; };
 		7255AFB625DC8D570034B8AF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		7255AFC025DCBB430034B8AF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		725888A425CF65930097C0F2 /* SubmissionGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubmissionGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +121,9 @@
 		725888B625CF67020097C0F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7266873B25DB42A9005D4B22 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		72C8E24A25DD613600CB0D30 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
+		72C8E25A25DD7AD500CB0D30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		72C8E25C25DD7AE500CB0D30 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		72C8E25D25DD7AE700CB0D30 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +137,8 @@
 				724C62C925BD9D5700C6EEBA /* Realm in Frameworks */,
 				724D60FE25BD5D8D0051569C /* SDWebImageSwiftUI in Frameworks */,
 				7255AFBD25DCAA430034B8AF /* Core in Frameworks */,
+				72C8E26025DD7D1900CB0D30 /* Game in Frameworks */,
 				72C8E25125DD778B00CB0D30 /* Genre in Frameworks */,
-				72C8E24E25DD775300CB0D30 /* Game in Frameworks */,
 				724D610125BD60A50051569C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,12 +294,10 @@
 		7254D52025BC876800BDB908 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7255AFB525DC8C0D0034B8AF /* ja.lproj */,
-				7255AFB325DC8BB40034B8AF /* en.lproj */,
-				7255AFB425DC8BB40034B8AF /* id.lproj */,
 				7254D51225BC86C900BDB908 /* Assets.xcassets */,
 				7254D54425BC8A5900BDB908 /* Base.lproj */,
 				7254D51A25BC86C900BDB908 /* Info.plist */,
+				72C8E25B25DD7AD500CB0D30 /* Localizable.strings */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -434,30 +434,6 @@
 			path = Base.lproj;
 			sourceTree = "<group>";
 		};
-		7255AFB325DC8BB40034B8AF /* en.lproj */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = en.lproj;
-			path = SubmissionGame/en.lproj;
-			sourceTree = SOURCE_ROOT;
-		};
-		7255AFB425DC8BB40034B8AF /* id.lproj */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = id.lproj;
-			path = SubmissionGame/id.lproj;
-			sourceTree = SOURCE_ROOT;
-		};
-		7255AFB525DC8C0D0034B8AF /* ja.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				7255AFAF25DC8AF70034B8AF /* Localizable.strings */,
-			);
-			path = ja.lproj;
-			sourceTree = "<group>";
-		};
 		725888A525CF65940097C0F2 /* SubmissionGameTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -501,8 +477,8 @@
 				7252C3E025CFF32500F4284D /* Genre */,
 				72C6A00325D9206400076171 /* Game */,
 				7255AFBC25DCAA430034B8AF /* Core */,
-				72C8E24D25DD775300CB0D30 /* Game */,
 				72C8E25025DD778B00CB0D30 /* Genre */,
+				72C8E25F25DD7D1900CB0D30 /* Game */,
 			);
 			productName = SubmissionGame;
 			productReference = 7254D50925BC86BE00BDB908 /* SubmissionGame.app */;
@@ -583,8 +559,8 @@
 				724D60FF25BD60A50051569C /* XCRemoteSwiftPackageReference "Alamofire" */,
 				724C62C725BD9D5700C6EEBA /* XCRemoteSwiftPackageReference "realm-cocoa" */,
 				7255AFBB25DCAA430034B8AF /* XCRemoteSwiftPackageReference "Core" */,
-				72C8E24C25DD775300CB0D30 /* XCRemoteSwiftPackageReference "Game" */,
 				72C8E24F25DD778B00CB0D30 /* XCRemoteSwiftPackageReference "Genre" */,
+				72C8E25E25DD7D1900CB0D30 /* XCRemoteSwiftPackageReference "Game" */,
 			);
 			productRefGroup = 7254D50A25BC86BE00BDB908 /* Products */;
 			projectDirPath = "";
@@ -602,12 +578,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7255AFB025DC8AF70034B8AF /* Localizable.strings in Resources */,
 				7266873C25DB42A9005D4B22 /* .swiftlint.yml in Resources */,
 				72C8E24B25DD613600CB0D30 /* .travis.yml in Resources */,
 				7254D51925BC86C900BDB908 /* LaunchScreen.storyboard in Resources */,
 				7255AFC125DCBB430034B8AF /* README.md in Resources */,
 				7254D51625BC86C900BDB908 /* Preview Assets.xcassets in Resources */,
+				72C8E25925DD7AD500CB0D30 /* Localizable.strings in Resources */,
 				7255AFB725DC8D570034B8AF /* .gitignore in Resources */,
 				7254D51325BC86C900BDB908 /* Assets.xcassets in Resources */,
 			);
@@ -726,6 +702,16 @@
 				7255AFAC25DC89AE0034B8AF /* id */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		72C8E25B25DD7AD500CB0D30 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72C8E25A25DD7AD500CB0D30 /* en */,
+				72C8E25C25DD7AE500CB0D30 /* id */,
+				72C8E25D25DD7AE700CB0D30 /* ja */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1041,20 +1027,20 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		72C8E24C25DD775300CB0D30 /* XCRemoteSwiftPackageReference "Game" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/muhyidinamin/Game";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
 		72C8E24F25DD778B00CB0D30 /* XCRemoteSwiftPackageReference "Genre" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/muhyidinamin/Genre";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.0.0;
+			};
+		};
+		72C8E25E25DD7D1900CB0D30 /* XCRemoteSwiftPackageReference "Game" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/muhyidinamin/Game";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -1093,15 +1079,15 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = Game;
 		};
-		72C8E24D25DD775300CB0D30 /* Game */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 72C8E24C25DD775300CB0D30 /* XCRemoteSwiftPackageReference "Game" */;
-			productName = Game;
-		};
 		72C8E25025DD778B00CB0D30 /* Genre */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 72C8E24F25DD778B00CB0D30 /* XCRemoteSwiftPackageReference "Genre" */;
 			productName = Genre;
+		};
+		72C8E25F25DD7D1900CB0D30 /* Game */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72C8E25E25DD7D1900CB0D30 /* XCRemoteSwiftPackageReference "Game" */;
+			productName = Game;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
