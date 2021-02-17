@@ -1,0 +1,10 @@
+language: swift
+osx_image: xcode11.5
+xcode_project: SubmissionGame.xcodeproj
+xcode_scheme: SubmissionGame
+xcode_destination: platform=iOS Simulator,OS=13.5,name=iPhone 11 Pro
+
+jobs:
+  include:
+     after_script: bash <(curl -s https://codecov.io/bash) -t b2e6731a-2290-48c9-96cf-e4b57ad7ea6c
+   - script: swiftlint
